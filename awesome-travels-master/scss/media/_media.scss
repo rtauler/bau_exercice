@@ -1,0 +1,26 @@
+@media (max-width: 950px) {
+  .footer .footer_wrapper .footer_box{
+  	width: 100%
+  }
+
+  .header{
+  	height: 200px;
+  }
+  .header .left_panel{
+  	text-align: center;
+  	width: 100%;
+  	display: block;
+  	height: 90px;
+  	float: left;
+  }
+
+  .header .left_panel .main_title{
+  	text-align: center;
+
+  }
+  .header .right_panel{
+  	width: 100%;
+  	float: left;
+  	text-align: center;
+  }
+}

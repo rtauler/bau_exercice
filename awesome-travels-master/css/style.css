@@ -482,7 +482,7 @@ th {
         text-transform: uppercase;
         padding-left: 5px;
         padding-right: 5px;
-        font-size: 12px;
+        font-size: 10px;
         background-color: #42b8c6;
         color: white;
         width: auto;
@@ -496,5 +496,26 @@ th {
         font-size: 0.8em; }
 
 /*FIN FOOTER*/
+@media (max-width: 950px) {
+  .footer .footer_wrapper .footer_box {
+    width: 100%; }
+
+  .header {
+    height: 200px; }
+
+  .header .left_panel {
+    text-align: center;
+    width: 100%;
+    display: block;
+    height: 90px;
+    float: left; }
+
+  .header .left_panel .main_title {
+    text-align: center; }
+
+  .header .right_panel {
+    width: 100%;
+    float: left;
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
