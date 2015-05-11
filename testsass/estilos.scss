@@ -1,0 +1,127 @@
+// Archivo: estilos.scss
+// Estos son los comentarios en SASS
+// Nota: Los comentarios de SASS no aparecerán en el archivo CSS generado.
+
+/* Archivo: estilos.css */
+/* Estos son los comentarios en CSS, que aparecerán directamente en el archivo .css */
+
+// Incializamos variables
+
+$ancho_pagina: 100%; /* 100% del ancho de la ventana del navegador */
+
+$tipo_fuente: arial, sans-serif;
+
+$color_texto: #1D1D1D; /* Color Negro */
+
+$fondo_negro: #333333; /* Color Gris Obscuro */
+$fondo_blanco: #F1F1F1; /* Color Blanco */
+$magic_color: #c0ffee;
+
+// Comenzamos los estilos en SASS
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: $ancho_pagina;
+	vertical-align: top;
+	font-family: $tipo_fuente;
+	font-size: 1em;
+	margin: auto;
+	background-color: $fondo_negro;
+	color: $color_texto;
+
+	#content_wrapper{
+
+		width: $ancho_pagina;
+		min-height: 540px;
+		position: relative;
+
+		h1, h2, h3, p {
+			margin: 0.5em;
+		}
+
+		a {
+			color: #E44E2D;
+			text-decoration: none;
+			&:hover {
+				color: red;
+				text-decoration: underline;
+			}
+		}
+
+		header, section, footer{
+			width: 100%;
+			*display: block;
+		}
+
+		header, footer {
+			background-color: $fondo_negro;
+			color: #F1F1F1;
+			padding: .75em 0;
+		}
+
+		section {
+			background-color: $fondo_blanco;
+			padding: 1.25em 0;
+			padding-bottom: 2em;
+		}
+
+		article, aside {
+			background-color: $fondo_blanco;
+			color: $color_texto;
+			display: inline-block;
+			vertical-align: top;
+			line-height: 1.35em;
+			*float: left;
+			padding: 5px 5px;
+			*display: block;
+		}
+
+		article {
+			width: 67%;
+			margin-right: 0 5px;
+			border-right: 1px solid #CCCCCC;
+		}
+
+		article p {
+			width: 92%;
+			display: block;
+			margin: auto;
+		}
+
+		aside {
+			width: 29%;
+			margin-right: 0;
+		}
+
+		footer {
+			vertical-align: bottom;
+			min-height: 120px;
+		}
+
+		.copyright {
+			display: block;
+			font-size: 1.10em;
+			margin-bottom: 1.15em;
+		}
+
+		.text-shadow {
+			color: #FFFFFF;
+			text-shadow: 0px 0px 8px rgba(250,250,250,0.65);
+		}
+
+		.align-center {
+			text-align: center;
+
+		}
+
+		.test{
+			text-align: center;
+		}
+
+	}
+
+}

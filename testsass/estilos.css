@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* Archivo: estilos.css */
+/* Estos son los comentarios en CSS, que aparecerán directamente en el archivo .css */
+/* 100% del ancho de la ventana del navegador */
+/* Color Negro */
+/* Color Gris Obscuro */
+/* Color Blanco */
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  width: 100%;
+  vertical-align: top;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  margin: auto;
+  background-color: #333333;
+  color: #1D1D1D; }
+  body #content_wrapper {
+    width: 100%;
+    min-height: 540px;
+    position: relative; }
+    body #content_wrapper h1, body #content_wrapper h2, body #content_wrapper h3, body #content_wrapper p {
+      margin: 0.5em; }
+    body #content_wrapper a {
+      color: #E44E2D;
+      text-decoration: none; }
+      body #content_wrapper a:hover {
+        color: red;
+        text-decoration: underline; }
+    body #content_wrapper header, body #content_wrapper section, body #content_wrapper footer {
+      width: 100%;
+      *display: block; }
+    body #content_wrapper header, body #content_wrapper footer {
+      background-color: #333333;
+      color: #F1F1F1;
+      padding: .75em 0; }
+    body #content_wrapper section {
+      background-color: #F1F1F1;
+      padding: 1.25em 0;
+      padding-bottom: 2em; }
+    body #content_wrapper article, body #content_wrapper aside {
+      background-color: #F1F1F1;
+      color: #1D1D1D;
+      display: inline-block;
+      vertical-align: top;
+      line-height: 1.35em;
+      *float: left;
+      padding: 5px 5px;
+      *display: block; }
+    body #content_wrapper article {
+      width: 67%;
+      margin-right: 0 5px;
+      border-right: 1px solid #CCCCCC; }
+    body #content_wrapper article p {
+      width: 92%;
+      display: block;
+      margin: auto; }
+    body #content_wrapper aside {
+      width: 29%;
+      margin-right: 0; }
+    body #content_wrapper footer {
+      vertical-align: bottom;
+      min-height: 120px; }
+    body #content_wrapper .copyright {
+      display: block;
+      font-size: 1.10em;
+      margin-bottom: 1.15em; }
+    body #content_wrapper .text-shadow {
+      color: #FFFFFF;
+      text-shadow: 0px 0px 8px rgba(250, 250, 250, 0.65); }
+    body #content_wrapper .align-center {
+      text-align: center; }
+
+/*# sourceMappingURL=estilos.css.map */
