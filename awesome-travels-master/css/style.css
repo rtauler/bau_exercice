@@ -511,7 +511,8 @@ th {
     float: left; }
 
   .header .left_panel .main_title {
-    text-align: center; }
+    width: 100%;
+    margin: 0 auto; }
 
   .header .right_panel {
     width: 100%;
