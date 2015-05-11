@@ -30,10 +30,24 @@
 
 		input{
 			width: 70%;
+			height: 40px;
+			border: none;
+
 		}
+
+		input[placeholder] {	
+				padding-left: 10px;
+			}
+
 		button{
 			width: 30%;
+			height: 40px;
 			float: right;
+			border: none;
+			background-color: $seccolor;
+		}
+		button:hover{
+			background-color: $seccolor_highlight;
 		}
 	}
 	

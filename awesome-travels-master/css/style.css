@@ -394,7 +394,7 @@ th {
         text-decoration: none;
         color: white; }
       .header .right_panel li a:hover {
-        color: #37cbcd; }
+        color: #42b8c6; }
   .header h2 {
     font-size: 1em;
     position: absolute;
@@ -430,10 +430,19 @@ th {
     right: 0;
     margin: auto; }
     .slider .search input {
-      width: 70%; }
+      width: 70%;
+      height: 40px;
+      border: none; }
+    .slider .search input[placeholder] {
+      padding-left: 10px; }
     .slider .search button {
       width: 30%;
-      float: right; }
+      height: 40px;
+      float: right;
+      border: none;
+      background-color: #42b8c6; }
+    .slider .search button:hover {
+      background-color: #44cfdf; }
 
 /*FIN SLIDER*/
 /*FOOTER*/
@@ -455,15 +464,19 @@ th {
       padding: 10px;
       float: left;
       box-sizing: border-box;
-      background-color: #d3d3d3;
+      background-color: #efefef;
       display: inline-block;
       position: relative; }
       .footer .footer_wrapper .footer_box .footer_box_tag {
+        text-transform: uppercase;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
         background-color: #777777;
         color: white;
         width: auto;
         position: absolute;
-        top: -10px; }
+        top: -5px; }
       .footer .footer_wrapper .footer_box .footer_box_title {
         font-weight: bold; }
       .footer .footer_wrapper .footer_box .footer_box_text {
