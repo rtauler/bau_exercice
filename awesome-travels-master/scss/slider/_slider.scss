@@ -37,7 +37,12 @@
 
 		input[placeholder] {	
 				padding-left: 10px;
+				color: #dedede;
 			}
+		input:hover{
+			background-color: $thirdcolor;
+			color: white;
+		}
 
 		button{
 			width: 30%;
@@ -45,6 +50,7 @@
 			float: right;
 			border: none;
 			background-color: $seccolor;
+			color: white;
 		}
 		button:hover{
 			background-color: $seccolor_highlight;
