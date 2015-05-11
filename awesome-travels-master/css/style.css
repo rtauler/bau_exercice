@@ -359,7 +359,7 @@ th {
 /*HEADER*/
 .header {
   height: 50px;
-  background-color: #decaff;
+  background-color: #232323;
   position: relative; }
   .header img {
     height: 40px;
@@ -378,22 +378,29 @@ th {
     padding-left: 50px;
     width: 50%;
     height: 50px; }
+    .header .main_title h2 {
+      line-height: 150%;
+      color: white;
+      font-weight: normal; }
   .header .right_panel {
     width: 50%;
     float: right;
-    background-color: green;
     text-align: right; }
     .header .right_panel li {
       display: inline;
       list-style-type: none;
       margin-right: 40px; }
+      .header .right_panel li a {
+        text-decoration: none;
+        color: white; }
+      .header .right_panel li a:hover {
+        color: #37cbcd; }
   .header h2 {
     font-size: 1em;
     position: absolute;
     display: block;
     top: 0;
     bottom: 0;
-    background-color: blue;
     width: auto; }
 
 /*FINHEADER*/
@@ -431,8 +438,8 @@ th {
 /*FIN SLIDER*/
 /*FOOTER*/
 .footer {
-  margin-bottom: 40px;
-  height: auto;
+  margin-bottom: 20px;
+  height: 200px;
   display: block; }
   .footer .footer_title {
     margin: 0 auto 40px auto;
@@ -441,7 +448,6 @@ th {
       margin: 0; }
   .footer .footer_wrapper {
     width: 100%;
-    height: auto;
     display: block;
     /*FIN FOOTER BOX*/ }
     .footer .footer_wrapper .footer_box {
