@@ -4,7 +4,7 @@ $maincolor: #decaff;
 $seccolor: #coffe;
 $textcolor: #232323;
 
-
+/*HEADER*/
 .header{
 	height: 50px;
 	background-color: $maincolor;
@@ -60,7 +60,9 @@ $textcolor: #232323;
 	}
 
 }
+/*FINHEADER*/
 
+/*SLIDER*/
 .slider{
 	background-image: url("../assets/heading.jpg");
 	height: 400px;
@@ -99,3 +101,7 @@ $textcolor: #232323;
 	}
 	
 }
+/*FIN SLIDER*/
+
+/*FOOTER*/
+

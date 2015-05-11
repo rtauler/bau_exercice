@@ -356,6 +356,7 @@ td,
 th {
   padding: 0; }
 
+/*HEADER*/
 .header {
   height: 50px;
   background-color: #decaff;
@@ -395,6 +396,8 @@ th {
     background-color: blue;
     width: auto; }
 
+/*FINHEADER*/
+/*SLIDER*/
 .slider {
   background-image: url("../assets/heading.jpg");
   height: 400px;
@@ -423,5 +426,8 @@ th {
     .slider .search button {
       width: 30%;
       float: right; }
+
+/*FIN SLIDER*/
+/*FOOTER*/
 
 /*# sourceMappingURL=style.css.map */
