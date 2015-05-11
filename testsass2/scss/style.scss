@@ -1,28 +1,4 @@
-$left_color: #c0ffee;
-$right_color: #decaff;
-$gutter: 2%;
-$font: Helvetica;
+@import "color/color";
+@import "components/components";
 
-.general{
-	.left_panel{
-		background-color: $left_color;
-		width: 45%;
-		float: left;
-		padding: $gutter;
-		h1{
-			font-family: $font;
-			font-weight: bold;
-			font-size: 23px;
-		}
-		p{
-			font-size: 10px;
-			font-family: $font;
-
-		}
-	}
-	.right_panel{
-		background-color: $right_color;
-		background-clip: border-box;
-	}	
-}
 
