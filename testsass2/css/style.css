@@ -1,0 +1,17 @@
+.general .left_panel {
+  background-color: #c0ffee;
+  width: 45%;
+  float: left;
+  padding: 2%; }
+  .general .left_panel h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 23px; }
+  .general .left_panel p {
+    font-size: 10px;
+    font-family: Helvetica; }
+.general .right_panel {
+  background-color: #decaff;
+  background-clip: border-box; }
+
+/*# sourceMappingURL=style.css.map */
