@@ -67,6 +67,7 @@ $textcolor: #232323;
 	background-image: url("../assets/heading.jpg");
 	height: 400px;
 	position: relative;
+	margin-bottom: 20px;
 
 	.title{
 		position: absolute;
@@ -90,7 +91,7 @@ $textcolor: #232323;
 		left: 0;
 		right: 0;
 		margin: auto;
-	
+
 		input{
 			width: 70%;
 		}
@@ -104,4 +105,43 @@ $textcolor: #232323;
 /*FIN SLIDER*/
 
 /*FOOTER*/
+.footer{
+	.footer_title{
+		margin: 0 auto 20px auto;
+		width: 60%;
+
+		h3{
+			margin: 0;
+		}
+	}
+/*FOOTER BOX*/
+
+	.footer_box{
+		width: 25%;
+		padding: 10px;
+		float: left;
+		box-sizing: border-box;
+		border: 1px solid black;
+		position: relative;
+	
+
+		.footer_box_tag{
+			background-color: white;
+			width: auto;
+			position: absolute;
+			top: -10px;
+		}
+
+		.footer_box_title{
+			font-weight: bold;
+		}
+
+		.footer_box_text{
+			font-size: 0.8em;
+		}
+	}
+/*FIN FOOTER BOX*/
+
+}
+/*FIN FOOTER*/
 
