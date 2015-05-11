@@ -1,80 +1,8 @@
 @import "normalize/normalize";
-@import "color/color"
+@import "color/color";
+@import "header/header";
 
 
-$maincolor: #232323;
-$seccolor: #coffe;
-$textcolor: #232323;
-
-/*HEADER*/
-.header{
-	height: 50px;
-	background-color: $maincolor;
-	position: relative;
-
-	img{
-		height: 40px;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		margin: auto;
-		padding-left: 5px;
-	}
-	.left_panel{
-		width: 50%;
-		float: left;
-	}
-
-
-	.main_title{
-		position: absolute;
-		display: block;
-		top: 0;
-		padding-left: 50px;
-
-		width: 50%;
-		height: 50px;
-		h2{
-			line-height: 150%;
-			color: white;
-			font-weight: normal;
-		}
-		
-	}
-
-	.right_panel{
-		width: 50%;
-		float: right;
-		text-align: right;
-
-		li{
-			display: inline;
-			list-style-type: none;
-			margin-right: 40px;
-
-		a{
-			text-decoration: none;
-			color: white;
-		}
-
-		a:hover{
-			color: #37cbcd;
-		}
-
-		}
-	}
-
-	h2{
-		font-size: 1em;
-		position: absolute;
-		display: block;
-		top: 0;
-		bottom: 0;
-		width: auto;
-	}
-
-}
-/*FINHEADER*/
 
 /*SLIDER*/
 .slider{
