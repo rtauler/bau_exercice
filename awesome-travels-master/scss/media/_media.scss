@@ -1,10 +1,12 @@
+/*Arreglos multiples en mediQueries*/
+
 @media (max-width: 950px) {
   .footer .footer_wrapper .footer_box{
   	width: 100%
   }
 
   .header{
-  	height: 200px;
+  	height: 150px;
   }
   .header .left_panel{
   	text-align: center;
@@ -14,14 +16,27 @@
   	float: left;
   }
 
-  .header .left_panel .main_title{
+  .header .left_panel{
   	width: 100%;
   	margin: 0 auto;
 
   }
+
+  .header .main_title{
+    display: none;
+  }
+
   .header .right_panel{
   	width: 100%;
   	float: left;
   	text-align: center;
   }
+
+  .logo{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+  }
+
 }

@@ -4,19 +4,16 @@
 	height: 400px;
 	position: relative;
 	margin-bottom: 20px;
+	text-align: center;
 
 	.title{
 		position: absolute;
-		height: 40px;
-		top: 0;
-		bottom: 0;
+		top: 50%;
 		left: 0;
 		right: 0;
-		margin: auto;
-		h1{
-			text-align: center;
-			color: white;
-		}
+		margin: -37px auto 0;
+		color: white;
+
 	}
 
 	.search{
